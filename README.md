@@ -15,7 +15,7 @@ App bar used on this screen is reusable widget and it can be called like:
 ```  
 where context is _BuildContext_ of _Scaffold_ and function is function which we want to be triggered on tap of skip button in this appbar.\
 On this screen skip button leads to _Home page_.\
-All reusable widgets can be found in _lib/shared_ and _lib/shared/reusableWidgets.dart_.
+All reusable widgets can be found in _lib/shared_ folder and _lib/shared/reusableWidgets.dart_ file.
 
 For creating account we need to add phone number.\
 For inputing phone number we added package:
