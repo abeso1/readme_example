@@ -2,7 +2,7 @@
 
 Mobile app made in Flutter
 
-#### Table of Contents
+## Table of Contents
 
 1. [Create account screen](#create-account-screen)
 2. [Confirm number screen](#confirm-number-screen)
