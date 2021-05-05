@@ -15,7 +15,7 @@ App bar used on this screen is reusable widget and it can be called like:
 ```  
 where context is _BuildContext_ of _Scaffold_ and function is function which we want to be triggered on tap of skip button in this appbar.\
 On this screen skip button leads to _Home page_.\
-All reusable widgets can be found in _lib/shared_ and _lib/shared/reusableWidgets.dart_.\
+All reusable widgets can be found in _lib/shared_ and _lib/shared/reusableWidgets.dart_.
 
 For creating account we need to add phone number.\
 For inputing phone number we added package:
@@ -69,10 +69,11 @@ After checking does the phone exists we send code to phone with next snippet of 
         );
 ```
 If we get _status code_ __201__ it means that code has been sent.\
-If we get other _status codes_ it means there is some problem.\
+If we get other _status codes_ it means there is some problem.
+
 After sending code we go to __Confirmation number screen__. 
 
-On __Create account screen__ beneath __InternationalPhoneInput__ we also have _Facebook_, _Google_ and on _Apple_ devices _Apple_ login.\
+On __Create account screen__ beneath __InternationalPhoneInput__ we also have _Facebook_, _Google_ and on _Apple_ devices _Apple_ login.
 
 ## Confirm number screen
 
@@ -81,7 +82,7 @@ App bar used on this screen is reusable widget and it can be called like:
     appBarWithBackButton(context, title)
 ```  
 where context is _BuildContext_ of _Scaffold_ and title is title which we want to be in middle of app bar.\
-This app bar is also reusable from _lib/shared_ folder.\
+This app bar is also reusable from _lib/shared_ folder.
 
 Main function of this screen is to input code which has been sent on previous screen.\
 On center of screen we have input fields for code.\
@@ -94,6 +95,6 @@ When we click __Next__ button on this screen we send __POST__ request with code 
     );
 ```
 If we get response with _status code_ of __201__ it means that code is _OK_.\
-Other status codes tell us that code is _NOT OK_.\
+Other status codes tell us that code is _NOT OK_.
 
-We also have _Try again_ button which sends code again.\
+We also have _Try again_ button which sends code again.
